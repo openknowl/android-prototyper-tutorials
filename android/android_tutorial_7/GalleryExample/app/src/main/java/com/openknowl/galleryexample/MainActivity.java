@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (data == null) {
-            Log.i(TAG, "데이터가 널이에양..");
+            Log.i(TAG, "데이터가 없습니다.");
             return;
         }
 
