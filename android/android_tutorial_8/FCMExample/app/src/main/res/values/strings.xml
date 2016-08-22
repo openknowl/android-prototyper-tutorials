@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FCMExample</string>
+    <string name="fcm_api_key">key=AIzaSyCt6njK5EloXbUqVY_5bbg7pSfqw60yCK0</string>
+</resources>
