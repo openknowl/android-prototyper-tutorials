@@ -63,10 +63,13 @@ public class ContactListAdapter extends ArrayAdapter<Contact> {
             viewHolder.avatarImageView = (ImageView) convertView.findViewById(R.id.avatarImageView);
             viewHolder.nameTextView = (TextView) convertView.findViewById(R.id.nameTextView);
             viewHolder.outgoingCallImageView = (ImageView) convertView.findViewById(R.id.outgoingCallImageView);
+
+            convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
         }
-        viewHolder.init(contacts, position);
+        if (viewHolder != null)
+            viewHolder.init(contacts, position);
 
         return convertView;
     }
