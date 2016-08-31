@@ -44,7 +44,7 @@ public class Main {
 
         System.out.println("\n");
         // 문자열끼리 결합시에도 사용
-        String name = "김경만";
+        String name = "김철수";
         String job = "개발자";
         System.out.println("안녕하세요 제 이름은 " + name + "입니다.\n" + "직업은 " + job + "입니다.");
 
