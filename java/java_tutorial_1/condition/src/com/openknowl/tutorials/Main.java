@@ -11,14 +11,14 @@ public class Main {
 
         // 즉 ..
         if (true) {
-            System.out.println("실행된다 !");
+            System.out.println("실행된다!");
         }
         if (false) {
-            System.out.println("실행이 안된다 !");
+            System.out.println("실행이 안된다!");
         }
 
         if (!false) {
-            System.out.println("실행된다 ! ");
+            System.out.println("실행된다!");
         }
 
         // 즉 비교 연산자를 통해서 사용할 수 있다.

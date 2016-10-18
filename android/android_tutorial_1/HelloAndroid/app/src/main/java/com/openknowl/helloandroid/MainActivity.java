@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onClick(View view) {
                 // Toast 메세지는 안드로이드 기기 하단에 잠시 나왔다가 사라지는 메시지를 말한다.
                 Toast.makeText(MainActivity.this, "textView!", Toast.LENGTH_SHORT).show();
-                textView.setText("클릭되었음 !");
+                textView.setText("클릭되었음!");
             }
         });
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     // 인터페이스를 구현해서도 사용이 가능하다.
     @Override
     public void onClick(View view) {
-        Toast.makeText(MainActivity.this, "인터페이스를 구현해서도 사용할 수 있다. view = " + view.getId(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "인터페이스를 구현해서도 사용할 수 있다.\nview = " + view.getId(), Toast.LENGTH_SHORT).show();
 
         // 다른 화면으로 넘어가는 것은 인텐트를 이용한다.
         Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
