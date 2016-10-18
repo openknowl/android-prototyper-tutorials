@@ -22,7 +22,7 @@
         android:layout_marginStart="22dp"
         android:layout_toEndOf="@+id/avatarImageView"
         android:layout_toRightOf="@+id/avatarImageView"
-        android:text="김경만"
+        android:text="홍길동"
         android:textSize="20dp" />
 
     <ImageView
