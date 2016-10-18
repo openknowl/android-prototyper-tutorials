@@ -4,9 +4,9 @@ public class WhileExample {
 
     public static void main(String[] args) {
         // 무한루프 예제
-//        while(true) {
-//            System.out.println("무한루프");
-//        }
+        // while(true) {
+        //     System.out.println("무한루프");
+        // }
 
         // 일반 루프
         int i = 0;

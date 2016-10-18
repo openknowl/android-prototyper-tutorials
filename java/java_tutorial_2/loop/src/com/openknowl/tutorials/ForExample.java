@@ -4,9 +4,9 @@ public class ForExample {
 
     public static void main(String[] args) {
         // 무한루프 예제
-//        for (; true; ) {
-//            System.out.println("무한루프");
-//        }
+        // for (; true; ) {
+        //    System.out.println("무한루프");
+        // }
 
         // 일반 루프
         // While 과 비교했을 때
